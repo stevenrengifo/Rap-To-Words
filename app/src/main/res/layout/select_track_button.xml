@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/select_track_button"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#808080"
+        android:text="@string/select_track"
+        android:textColor="#ffffff"
+        android:layout_marginStart="@dimen/button_margin"
+        android:layout_marginEnd="@dimen/button_margin"
+        android:enabled="false"/>
+
+    <View
+        android:id="@+id/adapter_divider_top"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/button_margin"
+        android:background="#80737373" />
+
+</LinearLayout>
